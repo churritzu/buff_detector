@@ -18,7 +18,8 @@ buff_images = [
 # Región ampliada donde buscar
 region_boss_dinamica = (600, 50, 800, 200)
 
-umbral_confianza = 0.85
+# Umbral para todo al maximo exepto sombras indirectas y con priorizar rendimiento al maximo
+umbral_confianza = 0.60
 popup_duration = 2000
 
 # -------- FUNCIONES -------- #
