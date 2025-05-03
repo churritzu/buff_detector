@@ -8,17 +8,16 @@ import traceback
 # -------- CONFIGURACIÓN -------- #
 
 buff_images = [
-    'buff_party_bard.png',
-    'buff_party_paladin.png',
-    'buff_party_artist.png'
+    'assets/bard/buff_party_bard.png',
+    'assets/paladin/buff_party_paladin.png',
+    'assets/artist/drawing_orchids.png'
     # puedes seguir agregando más
 ]
-
 
 # Región ampliada donde buscar
 region_boss_dinamica = (600, 50, 800, 200)
 
-umbral_confianza = 0.85
+umbral_confianza = 0.60
 popup_duration = 2000
 
 # -------- FUNCIONES -------- #
